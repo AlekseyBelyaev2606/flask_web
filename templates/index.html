@@ -5,10 +5,13 @@
 {% endblock %}
 
 {% block body %}
-<h1 style="color:yellow;">Сайт моей компании</h1>
+
+<div class="container ">
+<svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+<h1 style="color:#ffc107">Транспортная компания МАРАФОН</h1>
     <hr>
     <p> </p>
-    <h2>Наши преимущества</h2>
+    <h2>Перевозки в наши дни</h2>
     <ol>
         Транспортные компании предоставляют важнейшую услугу, позволяя перемещать людей, товары и услуги из одного места в другое.
            Они имеют ряд преимуществ, в том числе способствуют экономическому росту, снижают транспортные расходы, предоставляют
@@ -44,4 +47,122 @@
            товаров и услуг, а их преимущества включают содействие экономическому росту, снижение транспортных
            расходов, создание рабочих мест и содействие доступности.</li>
     </ul>
+
+</div>
+<div class="container ">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="static\images\main.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 style="color:#ffc107" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Наша транспортная компания предлагает ряд преимуществ:</h1>
+        <p class="lead">Безопасность и надежность. Гибкие тарифы. Высококачественный сервис. Точность и своевременность доставки. Широкий выбор транспортных средств.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Зарегистрироваться</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Узнать цены</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom"></h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('static/images/truck1.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 style="color:#ffc107" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Короткие сроки доставки</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('static/images/truck2.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 style="color:#ffc107" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Круглосуточная поддержка</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('static/images/truck3.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 style="color:#ffc107" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Неизменные условия, не зависящие от внешних факторов</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container ">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Хотите начать сотрудничество</h1>
+        <p class="col-lg-10 fs-4">Вам лишь стоит отсавить зарегистрироваться на нашем портале, и в ближайшее время менеджер сделает доступ к нашему ресурсу.</p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email адрес</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Пароль</label>
+          </div>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Запомнить меня
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-warning" type="submit">Войти</button>
+          <hr class="my-4">
+          <small class="text-body-secondary">При нажатии, вы входите на сайт и принимаете условия компании.</small>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Доставка до маркетплейсов</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="static/images/car3.jpg" width="300" height="300">
+        </div>
+        <h3 class="fs-2">Ежедневная доставка</h3>
+        <p>Наша логистика работает ежедневно, что позволяет вам не беспокоится о упущенной выгоде от нехватки товара.</p>
+        <a href="#" class="icon-link">
+          Связаться
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="static/images/men2.jpg" width="300" height="300">
+        </div>
+        <h3 class="fs-2">Полная ответственность приемки-передачи</h3>
+        <p>Наши сотрудники ответственны от приемки товара до сдачи его на склад маркетплейса.</p>
+        <a href="#" class="icon-link">
+          Связаться
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="static/images/car1.jpg" width="300" height="300">
+        </div>
+        <h3 class="fs-2">Любой объем</h3>
+        <p>Мы перевозим отгрузки от одного короба до нужного количества ваших паллет.</p>
+        <a href="#" class="icon-link">
+          Связаться
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
 {% endblock %}
